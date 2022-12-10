@@ -23,7 +23,10 @@
     <nav class="navbar navbar-expand-lg navbar-color">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html"
-          ><img src="img/logo.png" alt="logo duoc" width="250px"
+          ><img
+            src="https://i.ibb.co/9rYW3gc/logo.png"
+            alt="logo duoc"
+            width="250px"
         /></a>
 
         <button
@@ -81,7 +84,7 @@
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
     >
-      <div class="modal-dialog">
+      <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
             <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">
@@ -96,8 +99,10 @@
           </div>
           <div class="modal-body">
             <a href="apk/app-release.apk" download="duocActive">
-              <div class="btn btn-success">Descargar APK</div>
+              <div class="btn btn-success w-100">Descargar APK</div>
             </a>
+
+            <p class="text-center">La descarga comenzara automaticamente</p>
           </div>
         </div>
       </div>
@@ -106,42 +111,16 @@
   </header>
 
   <body>
-    <div
-      id="carouselExampleControls"
-      class="carousel slide text-center"
-      data-bs-ride="carousel"
-    >
+    <div>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img
-            src="img/duoc1.png"
+            src="https://i.ibb.co/y00KMWY/duoc1.png"
             class="d-block w-100"
             alt="duoc padre alonso ovalle"
           />
         </div>
       </div>
-
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleControls"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-
-        <span class="visually-hidden">Anterior</span>
-      </button>
-
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleControls"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-
-        <span class="visually-hidden">Siguiente</span>
-      </button>
     </div>
 
     <script
@@ -151,14 +130,68 @@
     ></script>
   </body>
 
-  <footer
-    class="text-center text-lg-start text-white"
-    style="background-color: #3e4551"
-  >
+  <!-- Footer -->
+  <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <a
+          class="btn btn-outline-light btn-floating m-1"
+          href="https://ionicframework.com/"
+          role="button"
+          ><i class="fab fa-instagram">IONIC Framework</i></a
+        >
+
+        <a
+          class="btn btn-outline-light btn-floating m-1"
+          href="https://github.com/Josephwebs/asistencia-duoc"
+          role="button"
+          ><i class="fab fa-linkedin-in">Codigo landing page</i></a
+        >
+
+        <a
+          class="btn btn-outline-light btn-floating m-1"
+          href="https://github.com/Josephwebs/landing-duocapp"
+          role="button"
+          ><i class="fab fa-github">Codigo aplicacion IONIC</i></a
+        >
+      </section>
+
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto"></div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+          Este es un examen realizado para la carrera Analista programador
+          computacional, mas especificamente para el ramo de Aplicaciones
+          moviles, los repositorios con dichos trabajos se dejaran enlazados
+          para quien desee hacer uso del codigo con el fin que estime
+          conveniente.
+        </p>
+      </section>
+      <!-- Section: Text -->
+    </div>
+    <!-- Grid container -->
+
     <!-- Copyright -->
-    <div class="text-center p-5" style="background-color: rgba(0, 0, 0, 0.2)">
-      © 2022 Duoc UC Estudiantes
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2022 Copyright:
+      <a class="text-white" href="#">duocuc.cl</a>
     </div>
     <!-- Copyright -->
   </footer>
+  <!-- Footer -->
 </html>
