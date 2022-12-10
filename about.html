@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>DUOCUC APP</title>
+  </head>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-color">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><img src="img/logo.png" alt="logo duoc" width="250px"
+        /></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">¿Quienes somos?</a>
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://login.microsoftonline.com/72fd0b5a-8a6a-4cff-89f6-bde961f7e250/saml2?SAMLRequest=lZJRa9swEID%2FitC7bVmJY0fEKdlKWaCjoXb3sJdykaVERZYynRz28%2Bc5Ce1eCgMhELq7T3efVne%2Fe0vOKqDxrqZ5yihRTvrOuENNX9qHpKJ36xVCb%2FlJbIZ4dM%2Fq16AwkjHRobjc1HQITnhAg8JBr1BEKZrN90fBUyZOwUcvvaVkg6hCHFFfvcOhV6FR4Wykenl%2BrOkxxhOKLJPQnwY8mxAHsGk3eJlKm8HITv7SsmlrmqcMrAHMXnNezF5zSu7HVxkHcerkVsz6g3Fpb2Tw6HX0zhqnUun7rOS6Y%2FsCkgoWkMyl1km11Itk36nlItel4gWbWJySBx%2BkmrqvqQaLipLtfU1hduR6X87nVQVMSc3L%2FI11B%2F22YPOiGvO2uANEc1bvaYiD2jqM4GJNOeM8ycfF2rwSjItZkS7L6iclu%2BvMvhh3cfHZgPeXIBTf2naX7J6alpIfN6djAL0aFBM9fFT3eWG4%2BaLr%2F7Wzyj4i19fjv39o%2FQc%3D&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=A9rJKaDyx2MOZyshoUwdExRAQjT2yOXhCf%2FuKY73SGoHoFyT88QnqvrTVKEf4I06WtKcOM3EOV5BE3G5n19BqhG7789kYIUfo4EMgvf%2Bd69vt51ZxYekv%2BwF2B41%2FOuSmOa3zNJEYU5nxLR2FccoiUd%2BrpQzNnQzkUVv4tBT95fZIURWNJR5fobAUA8mX%2BDHdZ66g%2FzdZ89x019d6QAPlSOx9uyxxyXIp7xdMWCciJS9XY67TpQQwLrWGBHfBaEWP7o29X3f9qPajEgosx%2B7tG9RFDrcvnIdCreTOUFTSGqztWETrYWNwdF2AKYOx3643eohPq%2FdVKG5XCMYKnsjpQ%3D%3D"
+                >AVA</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <div
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                class="nav-link"
+              >
+                Descargar
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">
+              Descarga la aplicacion para comenzar a registrar asistencia
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <a href="apk/app-release.apk" download="duocActive">
+              <div class="btn btn-success">Descargar APK</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal -->
+  </header>
+
+  <body>
+    <section class="container text-center my-5">
+      <div class="responsive-profile d-grid gap-3 m-3">
+        <a href="https://www.linkedin.com/in/josealcantara-dev/">
+          <div class="profile rounded-5 p-3 bg-jose box shadow">
+            <h2>José Alcántara</h2>
+
+            <p>Jefe de equipo</p>
+
+            <p>
+              Encargado de la arquitectura y buenas practicas del proyecto,
+              organizar y mantener codigo en correcto estado manteniendo la
+              eficiencia por sobre todo.
+            </p>
+
+            <img src="img/jose-icon.svg" alt="jose icon" />
+          </div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/patricio-programador/">
+          <div class="profile rounded-5 p-3 bg-patricio box shadow">
+            <h2>Patricio Alarcón</h2>
+
+            <p>Diseñador</p>
+
+            <p>
+              Encargado de diseño con realizando diferentes mock ups en figma,
+              responsividad y colores, maqueteo de pagina usando HTML y CSS
+              siguiendo buenas practicas de diseño basandose en
+              especificiaciones UX/UI.
+            </p>
+
+            <img src="img/patricio-icon.svg" alt="patricio icon" />
+          </div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/javier-mu%C3%B1oz-b17219200/">
+          <div class="profile rounded-5 p-3 bg-javier box shadow">
+            <h2>Javier Muñoz</h2>
+
+            <p>Programador</p>
+
+            <p>
+              Encargado de programar la logica de negocio en la aplicación,
+              elección de tecnologias y buenas practicas en codigo usando
+              framework IONIC con Angular.
+            </p>
+
+            <img src="img/javier-icon.svg" alt="javier icon" />
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+
+  <footer
+    class="text-center text-lg-start text-white"
+    style="background-color: #3e4551"
+  >
+    <!-- Copyright -->
+    <div class="text-center p-5" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2022 Duoc UC Estudiantes
+    </div>
+    <!-- Copyright -->
+  </footer>
+</html>
