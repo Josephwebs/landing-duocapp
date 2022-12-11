@@ -97,12 +97,18 @@
               aria-label="Close"
             ></button>
           </div>
-          <div class="modal-body">
-            <a href="apk/app-release.apk" download="duocActive">
-              <div class="btn btn-success w-100">Descargar APK</div>
-            </a>
+          <div class="modal-body container">
+            <script>
+              screenSize = screen.width;
+              const modal = document.querySelector(".modal-body");
+              const mobileDownload =
+                '<a href="apk/app-release.apk" download="duocActive"><div class="btn btn-success w-100">Descargar APK</div></a><p class="text-center">La descarga comenzara automaticamente al dar click</p>';
+              const desktopDownload =
+                '<img class="w-100" src="https://i.ibb.co/mHK3890/qrcode-generado.png"alt="qr duoc app"/><p class="text-center">Escanea el codigo para obtener la APK gratuita</p>';
 
-            <p class="text-center">La descarga comenzara automaticamente</p>
+              modal.innerHTML =
+                screenSize > 810 ? desktopDownload : mobileDownload;
+            </script>
           </div>
         </div>
       </div>
@@ -136,7 +142,7 @@
             <p>Diseñador</p>
 
             <p>
-              Encargado de diseño con realizando diferentes mock ups en figma,
+              Encargado de diseño realizando diferentes mockups en figma,
               responsividad y colores, maqueteo de pagina usando HTML y CSS
               siguiendo buenas practicas de diseño basandose en
               especificiaciones UX/UI.
@@ -204,20 +210,6 @@
         >
       </section>
 
-      <!-- Section: Form -->
-      <section class="">
-        <form action="">
-          <!--Grid row-->
-          <div class="row d-flex justify-content-center">
-            <!--Grid column-->
-            <div class="col-auto"></div>
-            <!--Grid column-->
-          </div>
-          <!--Grid row-->
-        </form>
-      </section>
-      <!-- Section: Form -->
-
       <!-- Section: Text -->
       <section class="mb-4">
         <p>
@@ -235,7 +227,7 @@
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
       © 2022 Copyright:
-      <a class="text-white" href="#">duocuc.cl</a>
+      <a class="text-white" href="#">Estudiantes Duoc UC</a>
     </div>
     <!-- Copyright -->
   </footer>
