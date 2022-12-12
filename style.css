@@ -46,3 +46,20 @@ a:hover {
 
   transition: background-color 0.4s;
 }
+
+.info {
+  color: aliceblue;
+  border-radius: 20px;
+  padding: 25px;
+  background: rgb(69, 74, 238);
+}
+
+@media (max-width: 300px) {
+  .info img {
+    width: 100%;
+  }
+
+  .info p {
+    font-size: 15px;
+  }
+}
